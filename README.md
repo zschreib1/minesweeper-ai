@@ -2,7 +2,7 @@
 
 I wrote an **AI to play Minesweeper**.
 
-Starter code was provided for this project, which I completed in the context of **Harvard UniversityX**'s **[CS50 Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/)** course. 
+Starter code was provided for this project, which I completed in the context of **Harvard UniversityX**'s **[CS50 Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/)** course. Please **do not** directly use the source code as it is **only** for reference. Plagiarism is strictly prohibited by both Harvard University and the edX platform. See [academic honesty](https://cs50.harvard.edu/ai/2020/honesty/) for details.
 
 There are two main files in this project: 
 - *runner.py* containing all of the code to run the graphical interface for the game.
