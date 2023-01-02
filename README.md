@@ -16,9 +16,9 @@ The goal of the game is to flag (i.e., identify) each of the mines. In many impl
 
 
 ## Implementation
-In *minesweeper.py*, I completed the implementations of the:
-- *Sentence class* (*known_mines*, *known_safes*, *mark_mine*, and *mark_safe* functions).
-- *MinesweeperAI class* (*add_knowledge*, *make_safe_move*, and *make_random_move* functions).
+In **minesweeper.py**, I completed the implementations of the:
+- *Sentence class* (**known_mines**, **known_safes**, **mark_mine**, and **mark_safe** functions).
+- **MinesweeperAI class** (**add_knowledge**, **make_safe_move**, and **make_random_move** functions).
 
 The *Minesweeper class* handles the gameplay; the *Sentence class* represents a logical sentence that contains both a set of cells and a count; the *MinesweeperAI class* handles inferring which moves to make based on knowledge.
 
