@@ -23,6 +23,14 @@ In *minesweeper.py*, I completed the implementations of the:
 The *Minesweeper class* handles the gameplay; the *Sentence class* represents a logical sentence that contains both a set of cells and a count; the *MinesweeperAI class* handles inferring which moves to make based on knowledge.
 
 ### How knowledge is represented in this AI and how the AI can make inferences.
+Knowledge-based agents make decisions by considering their knowledge base, and making inferences based on that knowledge. In this program, we represent an AI’s knowledge about a Minesweeper game by making each cell a propositional variable that is true if the cell contains a mine, and false otherwise.
 
+We’ll represent each sentence of our AI’s knowledge like the below.
+{A, B, C, D, E, F, G, H} = 1
 
+Every logical sentence in this representation has two parts: a set of cells on the board that are involved in the sentence, and a number count, representing the count of how many of those cells are mines. The above logical sentence says that out of cells A, B, C, D, E, F, G, and H, exactly 1 of them is a mine.
 
+Visit the [Harvard CS50AI](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/) for more information about the specifications for the project. 
+
+## Getting started
+Once in the directory for the project, run **pip3 install -r requirements.txt** to install the required Python package (pygame) for this project if you don’t already have it installed.
